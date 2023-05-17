@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-export default function InputData({data, setData}) {
+export default function InputDataOrigin({data, setData}) {
 
     const [elementInput , setElementInput] = useState(null);
 
